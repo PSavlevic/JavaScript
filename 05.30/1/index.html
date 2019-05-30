@@ -4,63 +4,20 @@
     <meta charset="UTF-8">
     <title>title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-        <section class="wrapper background-color colorGreen">
-            <h1><span>Get</span> in touch</h1>
-            <form>
-                <label for="name">Name</label>
-                <input class="border" type="text" name="name" id="name">
-                <label for="mail">Email</label>
-                <input class="border" type="email" name="mail" id="mail">
-                <label for="area">Message</label>
-                <textarea class="border" name="area" id="area" cols="30" rows="5"></textarea>
-                <input class="button border" onclick="myFunction()" value="SEND IT" name="submit">
-            </form>
-            <section class="flex-icons background-color">
-                <div class="icons fa-lg zalias">
-                    <i class="fab fa-facebook-f colorWhite"></i>
-                </div>
-                <div class="icons fa-lg">
-                    <i class="fab fa-linkedin-in colorWhite"></i>
-                </div>
-                <div class="icons fa-lg">
-                    <i class="fab fa-instagram colorWhite"></i>
-                </div>
-                <div class="icons fa-lg">
-                    <i class="fab fa-twitter colorWhite"></i>
-                </div>
-            </section>
-            <footer>
-                2018 danjuma ashiwaju
-            </footer>
-        </section>
+<body>
+
 <script>
-    function myFunction() {
-        var fonas = document.getElementsByClassName("background-color");
-        for (var i = 0; i < fonas.length; i++) {
-            fonas[i].style.backgroundColor = "white";
-        }
-        var border = document.getElementsByClassName("border");
-        for (var i = 0; i < border.length; i++) {
-            border[i].style.border = "1px solid #27A286";
-        }
-        var colorGreen = document.getElementsByClassName("colorGreen");
-        for (var i = 0; i < border.length; i++) {
-            colorGreen[i].style.color = "#27A286";
-        }
-        // var colorWhite = document.getElementsByClassName("colorWhite");
-        // for (var i = 0; i < colorWhite.length; i++) {
-        //     colorWhite[i].style.color = "#fff";
-        // }
-        // var zalias = document.getElementsByClassName("zalias");
-        // for (var i = 0; i < zalias.length; i++) {
-        //     zalias[i].style.backgroundColor = "#27A286";
-        // }
-    }
+    let metai = 2016;
+if(metai % 100 !== 0 && metai % 4 === 0) {
+    document.write("keliamieji metai")
+}else if (metai % 400 === 0) {
+    document.write("keliamieji metai")
+}else {
+    document.write("nekeliamieji metai")
+}
 </script>
 </body>
 </html>
