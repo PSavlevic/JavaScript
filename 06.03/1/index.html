@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .blokas {
+            width: 200px;
+            border: 1px solid black;
+        }
+        input:not([type=submit]) {
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="blokas">
+    <label>Vardas:</label>
+    <input type="text" id="name">
+    <input type="submit" onclick="fn()">
+</div>
+<script>
+    function fn() {
+       var x = document.querySelector("input[type=submit]");
+        if (x.value === "Submit") {
+            x.value = "Lol";
+        } else {
+            x.value = "Submit";
+        }
+    }
+
+</script>
+</body>
+</html>
