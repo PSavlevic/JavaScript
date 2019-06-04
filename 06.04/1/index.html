@@ -9,27 +9,7 @@
     <script src="css/script.js" defer></script>
 </head>
 <body>
-    <input type="text" id="color" placeholder="irasyk spalva">
-    <input type="submit" onclick="fn()">
-<section>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-</section>
-
-<script>
-    function fn() {
-    var color = document.getElementById("color").value;
-    var atv = document.querySelectorAll("div");
-    for (i = 0; i < atv.length; i++) {
-        atv[i].style.backgroundColor = color;
-    }
-}
-
-</script>
+<input type="number" id="kiekis">
+<input type="submit" onclick="fn()">
 </body>
 </html>
