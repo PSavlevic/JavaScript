@@ -2,14 +2,37 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="css/script.js" defer></script>
+    <title>bilietas i teatra</title>
 </head>
 <body>
-<input type="text" id="input">
+<input type="number" id="amzius" placeholder="irasykite savo amziu" min="1" max="120">
 <input type="submit">
+<p id="kaina"></p>
+
+<script>
+    var standartine = 6;
+    var vaikams = standartine * 0.5;
+    var senjorams = standartine - (standartine / 3);
+
+    var inpt = document.querySelector("input[type=submit]");
+    inpt.addEventListener("click", fn);
+
+    function fn() {
+        var age = document.querySelector("input[type=number]").value;
+        var showPrice = document.getElementById("kaina");
+
+        if (age <= 16) {
+            showPrice.innerHTML = "Bilieto kaina:" + " " + vaikams + "eur";
+        } else if (age >= 60) {
+            showPrice.innerHTML = "Bilieto kaina:" + " " + senjorams + "eur";
+        } else {
+            showPrice.innerHTML = "Bilieto kaina:" + " " + standartine + "eur";
+        }
+    }
+
+</script>
 </body>
 </html>
