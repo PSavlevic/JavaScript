@@ -5,34 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>bilietas i teatra</title>
+    <title>Ar tinki kariuomenei?</title>
 </head>
 <body>
-<input type="number" id="amzius" placeholder="irasykite savo amziu" min="1" max="120">
-<input type="submit">
-<p id="kaina"></p>
-
+<label>Ar tinki kariuomenei siuo metu?</label><br>
+<input type="text" id="amzius" placeholder="irasykite amziu"><br>
+<label>Ar buvot teistas?</label><br>
+<input type="radio" name="irasas" id="taip" value="male"> Taip<br>
+<input type="radio" name="irasas" id="ne" value="female"> Ne<br>
+<input type="submit" onclick="fn()">
+<h1 id="atsakymas"></h1>
 <script>
-    var standartine = 6;
-    var vaikams = standartine * 0.5;
-    var senjorams = standartine - (standartine / 3);
-
-    var inpt = document.querySelector("input[type=submit]");
-    inpt.addEventListener("click", fn);
-
     function fn() {
-        var age = document.querySelector("input[type=number]").value;
-        var showPrice = document.getElementById("kaina");
-
-        if (age <= 16) {
-            showPrice.innerHTML = "Bilieto kaina:" + " " + vaikams + "eur";
-        } else if (age >= 60) {
-            showPrice.innerHTML = "Bilieto kaina:" + " " + senjorams + "eur";
+        var age = document.getElementById("amzius").value;
+        var ne = document.getElementById("ne");
+        if (age >= 18 && age <= 30 && ne.checked) {
+            document.getElementById("atsakymas").innerHTML = "Tinki kariuomenei. Gali sulaukti pranesimo.";
         } else {
-            showPrice.innerHTML = "Bilieto kaina:" + " " + standartine + "eur";
+            document.getElementById("atsakymas").innerHTML = "Netinki kariuomenei.";
         }
     }
-
 </script>
 </body>
 </html>
