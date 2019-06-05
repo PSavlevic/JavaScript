@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="css/script.js" defer></script>
 </head>
 <body>
-
+<input type="number" id="skaicius" placeholder="skaicius">
+<input type="submit" onclick="fn()">
 <script>
     'use strict';
-    var skaicius = 4;
-    var guess;
-
-    let sk = 1;
-    do {
-        alert("bandyk dar karta");
-        guess = prompt("Atspek skaiciu nuo 1 iki 5");
-    } while (guess != skaicius);
-    alert("Sveikinu! tu atspejai skaiciu 4!!")
+    function fn() {
+        var skc = document.getElementById("skaicius").value;
+        for (let i = 0; i < skc; i++) {
+            for(let j = 0; j<= i; j++) {
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+    }
 </script>
 </body>
 </html>
