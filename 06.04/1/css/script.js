@@ -1,8 +1,11 @@
 'use strict';
 function fn() {
-var pirmas = Number(document.getElementById("pirmas").value);
-var antras = Number(document.getElementById("antras").value);
-var show = document.getElementById("ats");
-var sum = pirmas + antras;
-ats.innerHTML = sum;
+var skc = document.getElementById("skaicius").value;
+    for (let i = 0; i < skc; i++) {
+       for(let j = 0; j<= i; j++) {
+
+    }
+    }
 }
+
+
