@@ -6,20 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="css/script.js" defer></script>
 </head>
 <body>
-<input type="number" id="skaicius" placeholder="skaicius">
-<input type="submit" onclick="fn()">
+<h1 id="show"></h1>
 <script>
     'use strict';
-    function fn() {
-        var skc = document.getElementById("skaicius").value;
-        for (let i = 0; i < skc; i++) {
-            for(let j = 0; j<= i; j++) {
-                document.write("*");
-            }
-            document.write("<br>");
-        }
+    var ivestiMetus = prompt("How many years have you been with the company?");
+    if(ivestiMetus <= 9) {
+        document.getElementById("show").innerHTML = "You will receive a Christmas bonus of 50 pounds"
+    } else if (ivestiMetus <= 19) {
+        document.getElementById("show").innerHTML = "You will receive a Christmas bonus of 100 pounds"
+    } else if (ivestiMetus >= 20) {
+        document.getElementById("show").innerHTML = "You will receive a Christmas bonus of 150 pounds"
     }
 </script>
 </body>
