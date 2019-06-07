@@ -2,13 +2,13 @@
 document.querySelector("input[type=submit]")
 .addEventListener("click", x);
 
-function fn(vardas, skc) {
-    for (let i = 0; i < skc; i++){
+function fn(x, y) {
+    for (let i = 0; i < y; i++){
         var hBlokas = document.createElement("h1");
         document.body.append(hBlokas);
-        hBlokas.innerHTML = vardas;
+        hBlokas.innerHTML = x;
     }
-    return vardas;
+    return x;
 }
 
 function x() {
