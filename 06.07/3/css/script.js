@@ -1,24 +1,11 @@
 'use strict';
-var table = document.createElement("table");
-document.body.append(table);
-var tr1 = document.createElement("tr");
-table.append(tr1);
-var tr2 = document.createElement("tr");
-table.append(tr2);
-var tr3 = document.createElement("tr");
-table.append(tr3);
-var th11 = document.createElement("th");
-var th12 = document.createElement("th");
-tr1.append(th11, th12);
-th11.innerHTML = "Name";
-th12.innerHTML = "Surname";
-var td21 = document.createElement("td");
-var td22 = document.createElement("td");
-tr2.append(td21, td22);
-td21.innerHTML = "Pavel";
-td22.innerHTML = "Savlevic";
-var td31 = document.createElement("td");
-var td32 = document.createElement("td");
-tr3.append(td31, td32);
-td31.innerHTML = "Petras";
-td32.innerHTML = "Slekys";
+document.querySelector("input[type=submit]")
+    .addEventListener("click", fn);
+
+function fn() {
+var inpt = document.getElementById("inptekstas").value;
+var tekstas = document.createTextNode(inpt);
+document.getElementById("app").prepend(tekstas);
+}
+
+
