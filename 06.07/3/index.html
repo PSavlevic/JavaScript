@@ -16,15 +16,18 @@
 </head>
 <body>
 <script>
-    let arr = ["Pirmas", "Antras", "Trecias", "Ketvirtas"];
-    arr.forEach(sukam);
-
-    function sukam(value){
-        let show = document.createElement("h1");
-        document.body.append(show);
-        let textas = document.createTextNode(value);
-        show.append(textas);
+    function solution(X) {
+        var a = " ";
+        for (let i = 0; i < X; i++) {
+            for(let s = 0; s < X-i; s++) {
+                a += "*";
+            }
+            a += "<br>";
+        }
+        return a;
     }
+
+    document.write(solution(5));
 </script>
 </body>
 </html>
