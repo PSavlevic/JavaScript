@@ -9,27 +9,47 @@
 </head>
 <body>
 <script>
-   function raide(x) {
-       a = " ";
-       //L raides stuburas
-       for(i = 0; i <= x; i++) {
-           for (j=0; j <= x/4; j++){
-           a += "*";
-       }
-       a += "<br>";
-       }
 
-   //L raides apacia
-       for(i=0; i<(x/x)*3; i++){
-           for(j=0; j<=x*1.5; j++){
-               a+="*";
-           }
-           a+="<br>";
-       }
-       return a;
-   }
+    function pRaide(x) {
+        a = " ";
 
-   document.write(raide(18));
+        //virsus
+        for (let s = 0; s <= x/3; s++) {
+            for (let p = 0; p <= x*3.7; p++) {
+                a += "*";
+            }
+            a += "<br>";
+        }
+
+
+        //viduris
+        for(let i=0; i <= x; i++){
+            for(let j=0; j <= x; j++){
+                a += "*";
+            }
+            for(let k = 0; k <= x*3; k++) {
+                a += "&nbsp;"
+            }
+            for(let j=0; j <= x; j++){
+                a += "*";
+            }
+            a += "<br>";
+        }
+        for (let s = 0; s <= x/3; s++) {
+            for (let p = 0; p <= x*3.7; p++) {
+                a += "*";
+            }
+            a += "<br>";
+        }
+        for(let i=0; i <= x*1.3; i++){
+            for(let j=0; j <= x; j++){
+                a += "*";
+            }
+            a += "<br>";
+        }
+        return a;
+    }
+    document.write(pRaide(10));
 </script>
 </body>
 </html>
