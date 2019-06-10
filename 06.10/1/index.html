@@ -6,50 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        table {
+            margin-top: 20px;
+        }
+        table, tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px 20px;
+        }
+    </style>
 </head>
 <body>
+<input type="text" id="vardas">
+<input type="text" id="pavarde">
+<input type="submit" onclick="fn()">
+<table>
+    <tr>
+        <th>Vardas</th>
+        <th>Pavarde</th>
+    </tr>
+</table>
+
 <script>
-
-    function pRaide(x) {
-        a = " ";
-
-        //virsus
-        for (let s = 0; s <= x/3; s++) {
-            for (let p = 0; p <= x*3.7; p++) {
-                a += "*";
-            }
-            a += "<br>";
-        }
-
-
-        //viduris
-        for(let i=0; i <= x; i++){
-            for(let j=0; j <= x; j++){
-                a += "*";
-            }
-            for(let k = 0; k <= x*3; k++) {
-                a += "&nbsp;"
-            }
-            for(let j=0; j <= x; j++){
-                a += "*";
-            }
-            a += "<br>";
-        }
-        for (let s = 0; s <= x/3; s++) {
-            for (let p = 0; p <= x*3.7; p++) {
-                a += "*";
-            }
-            a += "<br>";
-        }
-        for(let i=0; i <= x*1.3; i++){
-            for(let j=0; j <= x; j++){
-                a += "*";
-            }
-            a += "<br>";
-        }
-        return a;
+    function Person(name, surname){
+        let naujaEilute = document.createElement("tr");
+        document.querySelector("table").append(naujaEilute);
+        let naujaStulpelis1 = document.createElement("td");
+        naujaEilute.append(naujaStulpelis1);
+        naujaStulpelis1.prepend(document.createTextNode(name));
+        let naujaStulpelis2 = document.createElement("td");
+        naujaEilute.append(naujaStulpelis2);
+        naujaStulpelis2.append(document.createTextNode(surname));
     }
-    document.write(pRaide(10));
+
+function fn(){
+    var vardas = document.getElementById("vardas").value;
+    var pavarde = document.getElementById("pavarde").value;
+    Person(vardas, pavarde);
+}
+
 </script>
 </body>
 </html>
