@@ -5,13 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <!--    <script src="css/script.js"></script>-->
     <title></title>
-
+    <style>
+        h1, h2, p {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-<input type="text" id="inptekstas">
-<input type="submit" value="Siunciu text'a">
-<div id="app"></div>
-<script src="css/script.js" defer></script>
+<script>
+    let arr = ["Pirmas", "Antras", "Trecias", "Ketvirtas"];
+    arr.forEach(sukam);
+
+    function sukam(value){
+        let show = document.createElement("h1");
+        document.body.append(show);
+        let textas = document.createTextNode(value);
+        show.append(textas);
+    }
+</script>
 </body>
 </html>
