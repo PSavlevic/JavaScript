@@ -9,35 +9,27 @@
 </head>
 <body>
 <script>
-    function solution(X) {
-        var a = " ";
-        // I raides virsus
-        for( let s = 0; s < ((X / 10) * 2); s++) {
-            for(let s = 0; s < X; s++) {
-                a += "*";
-            }
-            a += "<br>";
-        }
-        // I raides "stuburas"
-        for(let s = 0; s < X; s++) {
-            for(let s = 0; s < ((X / 10) * 5); s++) {
-                a += "&nbsp;";
-            }
-            for(let s = 0; s < ((X / 10) * 5) ; s++) {
-                a += "*";
-            }
-            a += "<br>";
-        }
-        // I raides apacia
-        for( let s = 0; s < ((X / 10) * 2); s++) {
-            for(let s = 0; s < X; s++) {
-                a += "*";
-            }
-            a += "<br>";
-        }
-        return a;
-    }
-    document.write(solution(10));
+   function raide(x) {
+       a = " ";
+       //L raides stuburas
+       for(i = 0; i <= x; i++) {
+           for (j=0; j <= x/4; j++){
+           a += "*";
+       }
+       a += "<br>";
+       }
+
+   //L raides apacia
+       for(i=0; i<(x/x)*3; i++){
+           for(j=0; j<=x*1.5; j++){
+               a+="*";
+           }
+           a+="<br>";
+       }
+       return a;
+   }
+
+   document.write(raide(18));
 </script>
 </body>
 </html>
