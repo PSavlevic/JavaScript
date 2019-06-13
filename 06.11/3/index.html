@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--    <script src="css/script.js"></script>-->
+    <title>asd</title>
+    <style>
+        div, h1, h2, h3 {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<input type="text" placeholder="Auto marke">
+<input type="text" placeholder="Modelis">
+<input type="number" placeholder="Auto kaina:">
+<input type="submit">
+<script>
+    'use strict';
+    var button = document.querySelector("input[type=submit]");
+    button.addEventListener("click", fn);
+    var divas = document.createElement("div");
+    var clear = () => {divas.innerHTML = "";};
+
+    var carArray = [];
+
+    function masina(marke, modelis, kaina){
+        this.marke = marke;
+        this.modelis = modelis;
+        this.kaina = kaina;
+    }
+    function fn() {
+        var mark = document.querySelectorAll("input")[0].value;
+        var model = document.querySelectorAll("input")[1].value;
+        var price = document.querySelectorAll("input")[2].value;
+        var auto = new masina(mark, model, price);
+        carArray.push(auto);
+        createTable()
+    }
+    function createTable(){
+        clear();
+        carArray.forEach(function(v){
+            console.log(carArray);
+            document.body.append(divas);
+            var hash1 = document.createElement("h1");
+            hash1.append(document.createTextNode(v.marke));
+            var hash2 = document.createElement("h2");
+            hash2.append(document.createTextNode(v.modelis));
+            var hash3 = document.createElement("h3");
+            hash3.append(document.createTextNode(v.kaina));
+            divas.append(hash1, hash2, hash3);
+        })
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>2 uzd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<input type="text" id="vard" placeholder="Ivesk varda">
+<input type="text" id="pavard" placeholder="Ivesk pavarde">
+<input type="number" id="tel" placeholder="Ivesk telefona">
+<input type="submit" onclick="myFunction()">
+<p id="name"></p>
+<p id="lname"></p>
+<p id="phone"></p>
+<script>
+    function myFunction() {
+        var vardas = document.getElementById("vard").value;
+        var pavarde = document.getElementById("pavard").value;
+        var telefonas = document.getElementById("tel").value;
+        document.getElementById("name").innerHTML = vardas;
+        document.getElementById("lname").innerHTML = pavarde;
+        document.getElementById("phone").innerHTML = telefonas;
+    }
+</script>
+</body>
+</html>

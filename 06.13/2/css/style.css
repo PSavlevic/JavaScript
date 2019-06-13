@@ -1,0 +1,100 @@
+header {
+  background-color: #dbdee5;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding: 10px 0;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: red;
+}
+
+nav a:first-child {
+  margin-left: 0;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.header-bg {
+  background-image: url("http://slekys.com/ca2/images/bike-rider.jpg");
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.redBlokas {
+  background-color: rgba(243, 11, 22, 0.5);
+  display: inline;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+
+.redBlokas p {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+}
+
+.header-bg .wrapper {
+  height: 450px;
+  position: relative;
+}
+
+h2 {
+  color: #f85059;
+}
+
+span {
+  color: #f30b16;
+}
+
+.mocai img {
+  width: 150px;
+  height: 100px;
+}
+
+.mocai {
+  background-color: #f3f6f8;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid silver;
+}
+
+.boldP {
+  font-weight: bold;
+}
+
+.boldP::before {
+  content: "\2666";
+  margin-right: 10px;
+}
+
+.mocai p:last-child {
+  text-align: justify;
+}
+
+.flex {
+  display: flex;
+}

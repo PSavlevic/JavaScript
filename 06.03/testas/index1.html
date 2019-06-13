@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>1 uzd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<input type="text" id="inputas">
+<input type="submit" onclick="myFunction()">
+<div id="show"></div>
+<script>
+    function myFunction() {
+        var inpt = document.getElementById("inputas").value;
+        var atvaizd = document.getElementById("show");
+        switch (inpt) {
+            case "Avinas":
+                atvaizd.innerHTML = "Ryztingas";
+                break;
+            case "Jautis":
+                atvaizd.innerHTML = "Malonus";
+                break;
+            case "Dvyniai":
+                atvaizd.innerHTML = "Permainingas";
+                break;
+            case "Vežys":
+                atvaizd.innerHTML = "Sumanus";
+                break;
+            case "Liūtas":
+                atvaizd.innerHTML = "Atsargus";
+                break;
+            case "Mergelė":
+                atvaizd.innerHTML = "Grazus";
+                break;
+            case "Svarstyklės":
+                atvaizd.innerHTML = "Emocionalus";
+                break;
+            case "Skorpionas":
+                atvaizd.innerHTML = "Uzsispyres";
+                break;
+            case "Šaulys":
+                atvaizd.innerHTML = "Demesingas";
+                break;
+            default:
+                atvaizd.innerHTML = "Paslaptingas";
+        }
+    }
+</script>
+</body>
+</html>

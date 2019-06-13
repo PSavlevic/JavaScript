@@ -1,74 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Su objektais</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <style>
-        table, td, th, tr {
-            border: 1px solid black;
-            padding: 10px;
-            border-collapse: collapse;
-            text-align: center;
-        }
-        table {
-            width: 50%;
-        }
+      table,
+      td,
+      th,
+      tr {
+        border: 1px solid black;
+        padding: 10px;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      table {
+        width: 50%;
+      }
 
-        th {
-            background-color: lightcyan;
-        }
+      th {
+        background-color: lightcyan;
+      }
 
-        tr:hover {
-            background-color: silver;
-            font-weight: bold;
-        }
+      tr:hover {
+        background-color: silver;
+        font-weight: bold;
+      }
 
-        input {
-            margin-bottom: 20px;
-        }
+      input {
+        margin-bottom: 20px;
+        padding: 5px;
+      }
     </style>
-</head>
-<body>
-<section>
-    <h1>Used Car DB</h1>
-    <table>
+  </head>
+  <body>
+    <section>
+      <h1>Used Car DB</h1>
+      <table></table>
+    </section>
+    <h2>Add a car</h2>
+    <input type="text" placeholder="Brand" />
+    <input type="text" placeholder="Model" />
+    <input type="text" placeholder="Doors" />
+    <input type="number" placeholder="Price" />
+    <input type="submit" />
+    <section>
+      <input type="number" placeholder="Irasyk ID istrinimas" id="delete" />
+      <button>Remove car</button>
+    </section>
 
-    </table>
-</section>
-<h2>Add a car</h2>
-<input type="text" placeholder="Brand">
-<input type="text" placeholder="Model">
-<input type="text" placeholder="Doors">
-<input type="number" placeholder="Price">
-<input type="submit">
-<section>
-    <input type="number" placeholder="Irasyk ID istrinimui" id="delete">
-    <button>Remove car</button>
-</section>
+    <script>
+      "use strict";
+      var table = document.querySelector("table");
+      var button = document.querySelector("input[type=submit]");
+      button.addEventListener("click", fn);
+      var clear = () => (table.innerHTML = "");
+      var removeButton = document.querySelector("button");
+      var x = document.getElementById("delete").value;
+      removeButton.addEventListener("click", remove);
 
-<script>
-    'use strict';
-    var table = document.querySelector("table");
-    var button = document.querySelector("input[type=submit]");
-    button.addEventListener("click", fn);
-    var clear = () => table.innerHTML = "";
-    var removeButton = document.querySelector("button");
-    var x = document.getElementById("delete").value;
-    removeButton.addEventListener("click", remove);
+      var globalArray = [];
 
-
-    var globalArray = [];
-
-    function konstruktor(brandas, modelis, durys, kaina) {
+      function konstruktor(brandas, modelis, durys, kaina) {
         this.brandas = brandas;
         this.modelis = modelis;
         this.durys = durys;
         this.kaina = kaina;
-    }
+      }
 
-    function fn() {
+      function fn() {
         var brand = document.querySelectorAll("input")[0].value;
         var model = document.querySelectorAll("input")[1].value;
         var doors = document.querySelectorAll("input")[2].value;
@@ -78,9 +79,9 @@
         createTable();
 
         console.log(globalArray);
-    }
+      }
 
-    function createTable() {
+      function createTable() {
         clear();
         let tr = document.createElement("tr");
         let th0 = document.createElement("th");
@@ -96,26 +97,26 @@
         table.prepend(tr);
         tr.append(th0, th1, th2, th3, th4);
 
-        globalArray.forEach(function(v, i){
-            let tras = document.createElement("tr");
-            let td0 = document.createElement("td");
-            td0.append(document.createTextNode(i));
-            let td1 = document.createElement("td");
-            td1.append(document.createTextNode(v.brandas));
-            let td2 = document.createElement("td");
-            td2.append(document.createTextNode(v.modelis));
-            let td3 = document.createElement("td");
-            td3.append(document.createTextNode(v.durys));
-            let td4 = document.createElement("td");
-            td4.append(document.createTextNode(v.kaina));
-            tras.append(td0, td1, td2, td3, td4);
-            table.append(tras);
+        globalArray.forEach(function(v, i) {
+          let tras = document.createElement("tr");
+          let td0 = document.createElement("td");
+          td0.append(document.createTextNode(i));
+          let td1 = document.createElement("td");
+          td1.append(document.createTextNode(v.brandas));
+          let td2 = document.createElement("td");
+          td2.append(document.createTextNode(v.modelis));
+          let td3 = document.createElement("td");
+          td3.append(document.createTextNode(v.durys));
+          let td4 = document.createElement("td");
+          td4.append(document.createTextNode(v.kaina));
+          tras.append(td0, td1, td2, td3, td4);
+          table.append(tras);
         });
-    }
-    function remove(x) {
+      }
+        function remove(x) {
         globalArray.splice(x, 1);
         createTable();
-    }
-</script>
-</body>
+      }
+    </script>
+  </body>
 </html>

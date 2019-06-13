@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+<!--    <script src="css/script.js" defer></script>-->
+</head>
+<body>
+<input type="Submit" onclick="rand()" value="if-else">
+<input type="Submit" onclick="switchas()" value="switch">
+<h1></h1>
+
+<script>
+  function rand(){
+      var randomas = Math.floor(Math.random() * 15);
+          let show = document.querySelector("h1");
+          if(randomas == 0) {
+            show.innerHTML = "Sveikinu, laimejai 3 bilietus";
+          } else if (randomas >= 1 && randomas <3) {
+              show.innerHTML = "Sveikinu, laimejai 2 bilietus";
+          }  else if (randomas >= 3 && randomas <=6) {
+          show.innerHTML = "Sveikinu, laimejai 1 bilieta";
+         } else {
+              show.innerHTML = "Nieko nelaimejai";
+          }
+        console.log(randomas);
+  }
+
+
+
+  function switchas() {
+  var rando = Math.round(Math.random() * 15);
+  let showw = document.querySelector("h1");
+  switch (rando) {
+      case 0:
+      showw.innerHTML = "Sveikinu, laimejai 3 bilietus";
+      break;
+      case 1:
+      case 2:
+      showw.innerHTML = "Sveikinu, laimejai 2 bilietus";
+      break;
+      case 3:
+      case 4:
+      case 5:
+      case 6:
+      showw.innerHTML = "Sveikinu, laimejai 1 bilieta";
+      break;
+      default:
+      showw.innerHTML = "Deja, nieko nelaimejai...";
+  }
+  }
+
+
+
+
+
+</script>
+</body>
+</html>

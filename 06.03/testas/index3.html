@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>3 uzd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<input type="text" id="inputas" placeholder="Ivesk temperatura">
+<input type="submit" onclick="myFunction()">
+<h1 id="show"></h1>
+
+<script>
+    function myFunction() {
+        var temp = document.getElementById("inputas").value;
+        var atvaizd = document.getElementById("show");
+        if (temp > 0) {
+                atvaizd.innerHTML = "Vanduo";
+            } else {
+                atvaizd.innerHTML = "ledas";
+            }
+        if (temp > 100) {
+                atvaizd.innerHTML = "garai";
+            }
+    }
+</script>
+</body>
+</html>

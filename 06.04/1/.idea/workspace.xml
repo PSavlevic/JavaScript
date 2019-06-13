@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="389927e2-8d9d-4f22-9734-861a53fa5ac0" name="Default Changelist" comment="ivedus amziu ir paspaudus RADIO, programa rodo ar tinki i kariuomene">
+      <change afterPath="$PROJECT_DIR$/../../05.30/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05.30/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05.30/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../testas/index.html" />
+        <option value="$PROJECT_DIR$/../testas/index1.html" />
+        <option value="$PROJECT_DIR$/../testas/index2.html" />
+        <option value="$PROJECT_DIR$/../testas/index3.html" />
+        <option value="$PROJECT_DIR$/../2/css/JavaScript.js" />
+        <option value="$PROJECT_DIR$/../2/css/script.js" />
+        <option value="$PROJECT_DIR$/../2/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="411" />
+    <option name="y" value="-26" />
+    <option name="width" value="880" />
+    <option name="height" value="880" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../06.05/1" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="389927e2-8d9d-4f22-9734-861a53fa5ac0" name="Default Changelist" comment="" />
+      <created>1559137429222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559137429222</updated>
+      <workItem from="1559137430774" duration="1481000" />
+      <workItem from="1559196448585" duration="427000" />
+      <workItem from="1559544613822" duration="18589000" />
+      <workItem from="1559628021570" duration="4702000" />
+      <workItem from="1559633057995" duration="20617000" />
+    </task>
+    <task id="LOCAL-00001" summary="Submit mygtukas keiciasi i &quot;Lol&quot; ir atgal i &quot;Submit&quot; (querySelector)">
+      <created>1559568742402</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559568742403</updated>
+    </task>
+    <task id="LOCAL-00002" summary="po paspaudimo submit, kas buvo irasyta i input, perejo i submit value">
+      <created>1559577187686</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559577187686</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ivedus amziu, apskaiciuoja kaina i teatra (50% vaikams, 30% senjorams)">
+      <created>1559632745117</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559632745117</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ivedus amziu ir paspaudus RADIO, programa rodo ar tinki i kariuomene">
+      <created>1559632814106</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559632814106</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ivedus i INPUTA spalva, pasikeicia visu bloku background spalva. (FOR)">
+      <created>1559645411224</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559645411224</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Foreach arrejaus spausdinimas consoleje">
+      <created>1559652967623</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559652967623</updated>
+    </task>
+    <task id="LOCAL-00007" summary="suvedus skaicius i inputus, rodo suma zemiau">
+      <created>1559654766467</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559654766467</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Do...While (Prompt), atspek skaiciu nuo 1 iki 5;">
+      <created>1559715182382</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559715182382</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Koki skaiciu ivedi i inputa, tiek zvaigzduciu liniju (*) atvaizduojama htmle">
+      <created>1559715640346</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559715640346</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ivedus darbo metu skaiciu, alertina kiek bonusu gausi">
+      <created>1559718078649</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559718078649</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="45816000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1412" height="760" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24962963" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32962963" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962963" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32962963" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Submit mygtukas keiciasi i &quot;Lol&quot; ir atgal i &quot;Submit&quot; (querySelector)" />
+    <MESSAGE value="po paspaudimo submit, kas buvo irasyta i input, perejo i submit value" />
+    <MESSAGE value="ivedus amziu, apskaiciuoja kaina i teatra (50% vaikams, 30% senjorams)" />
+    <MESSAGE value="ivedus amziu ir paspaudus RADIO, programa rodo ar tinki i kariuomene" />
+    <MESSAGE value="Ivedus i INPUTA spalva, pasikeicia visu bloku background spalva. (FOR)" />
+    <MESSAGE value="Foreach arrejaus spausdinimas consoleje" />
+    <MESSAGE value="suvedus skaicius i inputus, rodo suma zemiau" />
+    <MESSAGE value="Do...While (Prompt), atspek skaiciu nuo 1 iki 5;" />
+    <MESSAGE value="Koki skaiciu ivedi i inputa, tiek zvaigzduciu liniju (*) atvaizduojama htmle" />
+    <MESSAGE value="Ivedus darbo metu skaiciu, alertina kiek bonusu gausi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ivedus darbo metu skaiciu, alertina kiek bonusu gausi" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../TEST/1/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../testas/index.html" />
+    <entry file="file://$PROJECT_DIR$/../testas/index1.html" />
+    <entry file="file://$PROJECT_DIR$/../testas/index2.html" />
+    <entry file="file://$PROJECT_DIR$/../testas/index3.html" />
+    <entry file="file://$PROJECT_DIR$/../2/css/JavaScript.js" />
+    <entry file="file://$PROJECT_DIR$/../2/css/script.js" />
+    <entry file="file://$PROJECT_DIR$/../2/index.html" />
+    <entry file="file://$PROJECT_DIR$/../../05.29/1/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
