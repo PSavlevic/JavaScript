@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8adf94d8-4f71-4b59-806a-84bf038d2a7b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06.13/1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../06.13/1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06.13/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../06.13/2/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../2/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="137" column="7" lean-forward="true" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+            <state relative-caret-position="437">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -29,8 +30,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/../2/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -44,9 +45,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="396" />
-    <option name="y" value="-41" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="395" />
+    <option name="y" value="-42" />
     <option name="width" value="880" />
     <option name="height" value="880" />
   </component>
@@ -60,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../06.14/1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -87,7 +88,8 @@
       <option name="presentableId" value="Default" />
       <updated>1560406810494</updated>
       <workItem from="1560406812021" duration="9267000" />
-      <workItem from="1560423757318" duration="2732000" />
+      <workItem from="1560423757318" duration="2721000" />
+      <workItem from="1560493460256" duration="1891000" />
     </task>
     <task id="LOCAL-00001" summary="Lentele su OBJEKTAIS, delete row by ID">
       <created>1560415687734</created>
@@ -100,10 +102,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11999000" />
+    <option name="totallyTimeSpent" value="13879000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1412" height="760" extended-state="6" />
+    <frame x="-8" y="-8" width="1412" height="760" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24962963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -155,17 +157,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Lentele su OBJEKTAIS, delete row by ID" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../2/index.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1118">
-          <caret line="43" column="44" lean-forward="true" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="137" column="7" lean-forward="true" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+        <state relative-caret-position="437">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>

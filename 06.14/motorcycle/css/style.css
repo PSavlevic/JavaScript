@@ -1,0 +1,142 @@
+header {
+  background-color: silver;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header div img {
+  height: 50px;
+  margin-bottom: 10px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: red;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.bg-header {
+  background-image: url(http://slekys.com/ca2/images/bike-rider.jpg);
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-header .wrapper div {
+  background-color: rgba(243, 11, 22, 0.5);
+  display: inline-block;
+  position: absolute;
+  top: 380px;
+  right: 0;
+}
+
+.bg-header .wrapper {
+  position: relative;
+}
+
+.blokas {
+  padding: 10px;
+  text-align: center;
+}
+
+.blokas img {
+  width: 150px;
+  height: 100px;
+}
+
+.pe {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pe::before {
+  content: "\2666";
+  margin-right: 10px;
+}
+
+h2 {
+  color: red;
+}
+
+p:last-child {
+  text-align: justify;
+}
+
+textarea,
+input:not([type="submit"]) {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: red;
+  color: white;
+}
+
+footer {
+  background-color: silver;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.map-div img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 992px) {
+  .wrapper {
+    max-width: 992px;
+    margin: 0 auto;
+  }
+
+  .flex,
+  .flex-header,
+  .nav-flex {
+    display: flex;
+  }
+
+  .flex-header {
+    justify-content: space-between;
+  }
+
+  .nav-flex {
+    align-items: center;
+  }
+
+  .inp-div,
+  .map-div {
+    flex: 1;
+  }
+
+  .map-div {
+    margin-left: 5px;
+  }
+
+  nav a {
+    display: inline;
+    margin-left: 20px;
+  }
+
+  nav a:first-child {
+    margin-left: 0;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+}

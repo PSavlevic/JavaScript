@@ -1,0 +1,156 @@
+body {
+    background-color: #E9EBEE;
+    text-align: center;
+    padding: 0 20px
+}
+
+
+header img {
+    max-height: 60px;
+    padding: 5px 0;
+}
+
+nav a {
+    display: block;
+    padding: 25px 10px;
+    background-color: white;
+    border: 1px solid silver;
+    color: #93CCE2;
+    border-bottom: none;
+    font-size: 25px;
+
+}
+
+nav {
+ box-shadow: 0px 15px 10px -15px #111; 
+}
+
+nav a:first-child {
+    border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+nav a:last-child {
+    border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     border-bottom: 1px solid silver;
+}
+
+.right-side {
+    min-height: 310px;
+}
+
+.login, .content {
+    min-height: 150px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: left;
+    box-shadow: 0px 15px 10px -15px #111; 
+}
+
+.help {
+    display: none;
+}
+
+.content {
+    min-height: 320px;
+}
+
+.content p:first-child {
+    font-size: 50px;
+}
+
+footer {
+ color: grey;
+ padding: 20px
+}
+
+@media only screen and (min-width: 992px) {
+    .wrapper {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .flex-left {
+        flex-direction: column;
+    }
+
+    .help {
+        display: block;
+        min-height: 150px;
+        background-color: white;
+        margin-top: 20px;
+        border-radius: 5px;
+        padding: 40px;
+        box-sizing: border-box;
+    }
+
+    .login, .help {
+        flex: 1;
+        box-shadow: 0px 15px 10px -15px #111; 
+    }
+
+    .login, .content {
+        box-sizing: border-box;
+        box-shadow: 0px 15px 10px -15px #111; 
+    }
+
+    .help p {
+        margin: 0;
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .left-side {
+    min-height: 300px;
+    flex: 2;
+    }
+
+    .right-side {
+        flex: 3;
+        margin-left: 20px;
+    }
+
+    nav a {
+       
+        display: inline-block;
+        text-align: left;
+        border: none;
+        text-decoration: none;
+        color: black;
+        font-size: 1em;
+
+    }
+     nav a:first-child {
+        border-bottom: none;
+         margin-left: 30px;
+    }
+
+    nav a:last-child {
+        border-bottom: none;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    body {
+        text-align: left;
+    }
+
+    nav {
+        background-color: white;
+        text-align: left;
+        border-radius: 5px;
+        box-shadow: 0px 15px 10px -15px #111; 
+    }
+
+    footer {
+        text-align: center;
+    }
+}

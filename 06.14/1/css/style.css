@@ -1,0 +1,81 @@
+body {
+  font-family: "Gloria Hallelujah", cursive;
+  background-image: linear-gradient(to right top, #d45aa0, #c86bb8, #b97bcb, #a98ad9, #9898e2, #87a6ed, #77b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+span {
+  font-weight: 400;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(202, 0, 0);
+}
+
+section {
+  width: 50%;
+  margin: 50px auto;
+  border: 1px solid #F3C5FF;
+  padding: 10px;
+  border-radius: 10px;
+background-color: #F3C5FF;
+
+}
+
+input:not([type="submit"]) {
+  border: 1px solid rgb(202, 0, 0);
+  width: 57%;
+  padding: 10px;
+  color: rgb(202, 0, 0);
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: rgb(202, 0, 0);
+}
+
+:placeholder-shown {
+   color: rgb(202, 0, 0);
+}
+
+input[type="submit"],
+button {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgbw(202, 0, 0);
+  color: rgb(202, 0, 0);
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(202, 0, 0);
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(202, 0, 0);
+  color: white;
+}
+
+input[type=text]:focus {
+    outline-color: rgb(202, 0, 0);
+}
+
+table, tr, th, td {
+border: 1px solid rgb(202, 0, 0);
+border-collapse: collapse;
+padding: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+th:first-child, td:first-child {
+    width: 10%;
+    text-align: center
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font awesome linkas -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+   <div id="toggleButton">
+         <i class="fas fa-bars"></i>
+   </div>
+      <nav id="menu">
+          <a href="#">Link1</a>
+          <a href="#">Link1</a>
+          <a href="#">Link1</a>
+          <a href="#">Link1</a>
+      </nav>
+  </header>
+
+<script>
+let button = document.getElementById("toggleButton");
+let menu = document.getElementById("menu");
+
+button.addEventListener("click", function () {
+    menu.classList.toggle('active');
+})
+</script>
+</body>
+</html>

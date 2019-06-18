@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 20px;
+}
+
+nav a {
+    margin-left: 40px;
+}
+
+#menu {
+    display: none;
+}
+
+#menu.active {
+    display: block;
+}

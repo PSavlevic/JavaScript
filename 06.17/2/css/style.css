@@ -1,0 +1,165 @@
+body {
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header img {
+  max-height: 70px;
+  padding: 10px 0;
+}
+
+header {
+  padding: 30px;
+}
+
+.icons a {
+  text-decoration: none;
+  margin-top: 5px;
+  color: black;
+}
+
+.icons a:hover {
+  text-decoration: underline;
+}
+
+.icons {
+  margin-left: 60px;
+  text-align: center;
+}
+
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-bg {
+  background-image: url(https://images.wallpaperscraft.com/image/trees_top_view_green_121499_1600x900.jpg);
+  background-size: cover;
+  min-height: 500px;
+}
+
+.header-bg .wrapper {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h3,
+h4 {
+  color: #f3226b;
+  text-align: center;
+  border-bottom: 1px solid silver;
+  padding-bottom: 30px;
+  margin-top: 70px;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+h5 {
+   color: #f3226b; 
+   margin: 30px 0;
+   text-align: left
+}
+
+h1::before,
+h1::after {
+  content: "-";
+}
+
+button {
+  background-color: #f3226b;
+  padding: 10px 30px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+span {
+  display: block;
+  margin: 7px 0 0 0;
+}
+
+.circ {
+  text-align: center;
+}
+
+.circ img {
+  width: 35%;
+  padding: 20px 0;
+}
+
+.ikoneles i {
+  background-color: silver;
+  display: inline-block;
+  border-radius: 50%;
+  width: 2.1em;
+  height: 2.1em;
+  line-height: 2.1em;
+  text-align: center;
+}
+
+.ikoneles {
+    margin-bottom: 40px;
+}
+
+.flexass {
+  display: flex;
+}
+
+.flexass div {
+  text-align: center;
+}
+
+.flex-rev{
+    display: flex;
+}
+
+.pTag, .fruits {
+   flex: 1;
+   max-height: 300px;
+}
+
+.pTag p{
+    margin: 0;
+    padding-left: 20px;
+}
+
+.fruits {
+    background-image: url("https://www.worldatlas.com/r/w728-h425-c728x425/upload/46/cb/e1/shutterstock-252338818.jpg");
+    background-size: cover;
+}
+
+.flex-rev:nth-of-type(odd) {
+    flex-direction: row-reverse;
+}
+
+
+
+.last {
+    text-align: justify;
+}
+
+.pLeft {
+  padding: 0;
+}
